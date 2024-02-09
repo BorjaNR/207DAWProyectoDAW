@@ -1,0 +1,13 @@
+#################################
+###
+###
+### Alta de Unidad Organizativas
+###
+######################
+dn: ou=superior,dc=borja,dc=local
+objectClass: organizationalUnit
+ou: superior
+
+dn: ou=medio,dc=borja,dc=local
+objectClass: organizationalUnit
+ou: medio

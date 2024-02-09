@@ -1,0 +1,30 @@
+#################################
+###
+###
+### Alta de usuarios
+###
+######################
+#  Usuarios Borja de la unidad organizativa usuarios
+dn: uid=borja,ou=superior,dc=borja,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+uid: borja
+sn: nuñez
+cn: borja
+mail: borja@borja.localhost
+userPassword: paso
+
+# Usuarios Amor de la unidad organizativa usuarios
+dn: uid=amor,ou=superior,dc=borja,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+uid: amor
+sn: rodriguez
+cn: amor
+mail: amor@borja.localhost
+userPassword: paso
+

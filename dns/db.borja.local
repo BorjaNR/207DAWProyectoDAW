@@ -1,0 +1,21 @@
+;
+; BIND data file for borja.local
+;
+$TTL	604800
+@	IN	SOA	bnr-ldap.borja.local. borja.nunref.educa.jcyl.es. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 3600 )	        ; Negative Cache TTL
+;
+@	IN	NS	bnr-ldap.borja.local.
+; Registros Host
+@	IN	A	192.168.3.207
+bnr-used	IN	A	192.168.3.207
+bnr-ldap        IN      A       192.168.3.107
+; Registros Alias
+daw201  IN      CNAME   bnr-used.borja.local.
+daw202  IN      CNAME   bnr-used.borja.local.
+daw207  IN      CNAME   bnr-used.borja.local.
+login   IN      CNAME   bnr-used.borja.local.
